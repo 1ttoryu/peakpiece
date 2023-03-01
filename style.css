@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+@font-face {
+    font-family:'geo';
+    src: url(fonts/bpg_nino_mtavruli_bold.ttf);
+}
+
+
+.dow {
+    background-color: rgb(169, 7, 7);
+    color: white;
+    height: 15px;
+    font-size: 7px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+.dowt {
+   margin-top: -3px;
+}
+
+
+.link:link {
+    text-decoration: none;
+}
+
+
+div i {
+    margin-left: -10px;
+    font-size: 200px;
+    
+   
+   
+    
+}
+
+
+.parts {
+    width: 100%;
+    height: 55px;
+    margin-left: -150px;
+    font-size: 8px;
+    display: flex;
+    justify-content: right;
+    justify-content: space-between 50px;
+    align-items: center;
+    gap: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'geo';
+}
+
+.menu {
+    background-color: rgb(24, 20, 20);
+    color: white;
+}
+
+.logo {
+    margin-left: 80px;
+    margin-top: -35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.parts:hover {
+    color: red;
+}
+
+
+
+
+
+/* ზედა ნაწილი მენიუა ქვედა სლაიდი*/
+
+.imgg {
+    filter: brightness(40%) grayscale(30%) ;
+    margin-top: -29px;
+    position: relative;
+    z-index: 0;
+    
+}
+
+.animt {
+    font-size: 22px;
+    position: relative;
+    z-index: 1;
+    transform: translateY(100px);
+    color: white;
+    transform: translateY(20px);
+    margin-left: 64px;
+    font-family: 'geo';
+}
+
+.slots {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    transform: translateY(-298px);
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.5ms;
+    
+}
+
+#slot {
+    border-radius: 5px;
+}
+
+
+#-slot:hover {
+    filter: brightness(60%);
+    
+}
+
+
+.hh {
+    margin-top: -220px;
+    justify-content: center;
+}
