@@ -1,3 +1,3 @@
 # oo
  
-https://1ttoryu.github.io/peakpiece.github.io/
+https://1ttoryu.github.io/peakpiece
